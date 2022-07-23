@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Overpass:wght@400;700&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container,
+.thank-you {
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: hsl(213, 19%, 18%);
+  width: 350px;
+  height: 350px;
+}
+
+button {
+  font-family: inherit;
+}
+
+p {
+  line-height: 1.6;
+  color: hsl(217, 12%, 63%);
+  font-size: 0.8rem;
+}
+
+/* Rating Section */
+ul {
+  list-style-type: none;
+}
+
+.container img {
+  background-color: hsl(213, 8%, 23%);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.container h1 {
+  color: #fff;
+  margin: 2rem, 0, 1rem;
+}
+
+.container p {
+  margin-bottom: 1rem;
+}
+
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(210, 6%, 25%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.btn:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+  color: #fff;
+  letter-spacing: 0.1rem;
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  padding: 0.8rem 0 0.6rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+/* Thank You Section */
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.thank-you img {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.rating-result {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 8%, 23%);
+  border-radius: 2rem;
+  padding: 0.3rem 1rem 0.2rem;
+}
+
+.thank-you h2 {
+  color: #fff;
+  padding: 2rem 0 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 1rem;
+  color: #fff;
+}
